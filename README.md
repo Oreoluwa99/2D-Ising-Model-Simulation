@@ -1,6 +1,6 @@
 # Ising Model Simulation and Visualization
 
-This repository contains Python code for simulating and visualizing the Ising model, a mathematical model in statistical mechanics that describes the behavior of magnetic spins in a lattice. The simulation is performed using the Metropolis algorithm, and the results include thermodynamic properties and visual snapshots of the evolving spin configurations.
+This repository contains Python code for simulating and visualizing the 2D Ising model, a mathematical model in statistical mechanics that describes the behavior of magnetic spins in a lattice. The simulation is performed using the Metropolis algorithm, and the results include thermodynamic properties and visual snapshots of the evolving spin configurations.
 
 ## Table of Contents
 
