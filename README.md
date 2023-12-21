@@ -1,6 +1,6 @@
-# Ising Model Simulation
+# Ising Model Simulation and Visualization
 
-This repository contains Python code for simulating the Ising model using the Metropolis algorithm. The Ising model is a mathematical model used in statistical mechanics to describe the behavior of spins in a magnetic material.
+This repository contains Python code for simulating and visualizing the Ising model, a mathematical model in statistical mechanics that describes the behavior of magnetic spins in a lattice. The simulation is performed using the Metropolis algorithm, and the results include thermodynamic properties and visual snapshots of the evolving spin configurations.
 
 ## Table of Contents
 
@@ -12,12 +12,21 @@ This repository contains Python code for simulating the Ising model using the Me
 
 ## Introduction
 
-The Ising model is a widely studied model in statistical mechanics that helps understand the behavior of magnetic materials. This repository provides a Python implementation of the Ising model using the Metropolis algorithm for Monte Carlo simulations.
+The Ising model is a fundamental concept in statistical mechanics, providing insights into phase transitions and collective behavior in physical systems. This repository offers a comprehensive set of Python scripts for simulating the Ising model and visualizing its dynamics.
 
 ## Features
 
-- **IsingSimulation Class**: A class for simulating the Ising model.
-- **Visualization**: Plots to visualize the spin configuration at different time steps.
+### Simulation Code (`ising_simulation.py`)
+
+- **Monte Carlo Simulation**: Implementation of the Metropolis algorithm for simulating the Ising model.
+- **Thermodynamic Properties**: Calculation of thermodynamic properties, including energy, magnetization, specific heat, and susceptibility.
+- **Temperature Range**: Adjustable temperature range for exploring the model's behavior.
+
+### Visualization Code (`ising_visualization.py`)
+
+- **Snapshot Visualization**: Generation of visual snapshots of the Ising model's spin configurations at specific time steps.
+- **Temperature Parameterization**: Adjustable parameters for lattice size, equilibration steps, calculation steps, and temperature range.
+- **Matplotlib Plots**: Utilization of Matplotlib for creating visualizations.
 
 ## Usage
 
